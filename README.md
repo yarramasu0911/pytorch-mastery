@@ -1,13 +1,13 @@
 # PyTorch Mastery: 10-Project Roadmap
 
-A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts needed for ML engineering.
+A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts needed for ML engineering interviews.
 
 ## Projects
 
 | # | Project | Key Concepts | Dataset | Status |
 |---|---------|-------------|---------|--------|
-| 1 | [Linear Regression](./01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
-| 2 | Binary Classification | `BCELoss`, sigmoid, accuracy, precision/recall, overfitting | Breast Cancer | ⬜ |
+| 1 | [Linear Regression](.pytoch_learning/LinearRegression/01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
+| 2 | [Binary Classification](.pytoch_learning/BinaryClassification/02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
 | 3 | Multi-class Classification (Deep MLP) | `CrossEntropyLoss`, dropout, batch norm, LR schedulers, early stopping | Fashion-MNIST | ⬜ |
 | 4 | CNN Image Classification | `Conv2d`, `MaxPool2d`, data augmentation, `DataLoader`, GPU training | CIFAR-10 | ⬜ |
 | 5 | Transfer Learning | Pretrained ResNet/EfficientNet, freezing layers, fine-tuning | Custom | ⬜ |
@@ -41,7 +41,7 @@ pip install jupyter matplotlib numpy pandas scikit-learn
 - **Visualization:** Matplotlib
 - **Python:** 3.10+
 
-## What This Covers 
+## What This Covers (Interview Prep)
 
 - Tensors, autograd, and computation graphs
 - Neural network architectures (MLP, CNN, RNN, LSTM, Transformer)
@@ -56,4 +56,4 @@ pip install jupyter matplotlib numpy pandas scikit-learn
 
 ## Author
 
-**Prasanth Yarramasu** 
+**Prasanth** — MS in Artificial Intelligence, Northeastern University (Roux Institute)
