@@ -6,9 +6,9 @@ A hands-on, progressive journey through PyTorch — from manual gradient descent
 
 | # | Project | Key Concepts | Dataset | Status |
 |---|---------|-------------|---------|--------|
-| 1 | [Linear Regression](.pytoch_learning/LinearRegression/01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
-| 2 | [Binary Classification](.pytoch_learning/BinaryClassification/02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
-| 3 | Multi-class Classification (Deep MLP) | `CrossEntropyLoss`, dropout, batch norm, LR schedulers, early stopping | Fashion-MNIST | ⬜ |
+| 1 | [Linear Regression](./pytorch_learning/LinearRegression/01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
+| 2 | [Binary Classification](./pytorch_learning/BinaryClassification/02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
+| 3 | [Multi-class Classification (Deep MLP)](./pytorch_learning/MultiClassification/03_Multiclass_Classification.ipynb) | `CrossEntropyLoss`, dropout, batch norm, LR schedulers, early stopping | Fashion-MNIST | ✅ |
 | 4 | CNN Image Classification | `Conv2d`, `MaxPool2d`, data augmentation, `DataLoader`, GPU training | CIFAR-10 | ⬜ |
 | 5 | Transfer Learning | Pretrained ResNet/EfficientNet, freezing layers, fine-tuning | Custom | ⬜ |
 | 6 | Text Classification (RNN/LSTM) | `Embedding`, `LSTM`, `GRU`, sequence padding, variable-length inputs | IMDB Sentiment | ⬜ |
