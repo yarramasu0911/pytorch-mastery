@@ -1,6 +1,6 @@
 # PyTorch Mastery: 10-Project Roadmap
 
-A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts needed for ML engineering interviews.
+A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts needed for ML engineering.
 
 ## Projects
 
@@ -41,7 +41,7 @@ pip install jupyter matplotlib numpy pandas scikit-learn
 - **Visualization:** Matplotlib
 - **Python:** 3.10+
 
-## What This Covers (Interview Prep)
+## What This Covers
 
 - Tensors, autograd, and computation graphs
 - Neural network architectures (MLP, CNN, RNN, LSTM, Transformer)
@@ -56,4 +56,4 @@ pip install jupyter matplotlib numpy pandas scikit-learn
 
 ## Author
 
-**Prasanth** — MS in Artificial Intelligence, Northeastern University (Roux Institute)
+**Prasanth Yarramasu** 
