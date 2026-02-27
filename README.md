@@ -7,13 +7,13 @@ A hands-on, progressive journey through PyTorch — from manual gradient descent
 | # | Project | Key Concepts | Dataset | Status |
 |---|---------|-------------|---------|--------|
 | 1 | [Linear Regression](./pytorch_learning/LinearRegression/01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
-| 2 | [Binary Classification](./pytorch_learning/BinaryClassification/02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
+| 2 | [Binary Classification](./pytorch_learning/BinaryClassification//02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
 | 3 | [Multi-class Classification (Deep MLP)](./pytorch_learning/MultiClassification/03_Multiclass_Classification.ipynb) | `CrossEntropyLoss`, dropout, batch norm, LR schedulers, early stopping | Fashion-MNIST | ✅ |
 | 4 | [CNN Image Classification](./pytorch_learning/CNNClassification/04_CNN_Image_Classification.ipynb) | `Conv2d`, `MaxPool2d`, data augmentation, `DataLoader`, GPU training | CIFAR-10 | ✅ |
 | 5 | [Transfer Learning](./pytorch_learning/TransferLearning/05_Transfer_Learning.ipynb) | Pretrained ResNet18, freezing layers, fine-tuning, different LRs | CIFAR-10 | ✅ |
 | 6 | [Text Classification (RNN/LSTM)](./pytorch_learning/TextClassification/06_Text_Classification_LSTM.ipynb) | `Embedding`, `LSTM`, bidirectional, sequence padding, gradient clipping | IMDB Sentiment | ✅ |
 | 7 | [Transformer from Scratch](./pytorch_learning/Transformers/07_Transformer_from_Scratch.ipynb) | Self-attention, multi-head attention, positional encoding, masking | IMDB Sentiment | ✅ |
-| 8 | Object Detection | Faster R-CNN, bounding boxes, IoU, mAP | Pascal VOC | ⬜ |
+| 8 | [Object Detection](./pytorch_learning/ObjectDetection/08_Object_Detection.ipynb) | Faster R-CNN, bounding boxes, IoU, NMS, confidence thresholds | COCO pretrained | ✅ |
 | 9 | Autoencoder & VAE | Encoder-decoder, latent space, KL divergence, generative models | MNIST/CelebA | ⬜ |
 | 10 | End-to-End Pipeline | PyTorch Lightning, TensorBoard, hyperparameter tuning, ONNX export | Any | ⬜ |
 
