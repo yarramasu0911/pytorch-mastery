@@ -1,12 +1,12 @@
 # PyTorch Mastery: 10-Project Roadmap
 
-A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts.
+A hands-on, progressive journey through PyTorch — from manual gradient descent to production-level deep learning. Each project builds on the previous one, covering all major concepts needed for ML engineering.
 
 ## Projects
 
 | # | Project | Key Concepts | Dataset | Status |
 |---|---------|-------------|---------|--------|
-| 1 | [Linear Regression](./pytorch_learning/LinearRegression/01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
+| 1 | [Linear Regression](./pytorch_learning/LinearRegression//01_Linear_Regression.ipynb) | Tensors, autograd, `nn.Module`, MSELoss, SGD vs Adam, train/test split, model saving | Synthetic | ✅ |
 | 2 | [Binary Classification](./pytorch_learning/BinaryClassification//02_Binary_Classification.ipynb) | `BCELoss`, sigmoid, accuracy, precision/recall, confusion matrix, feature scaling | Breast Cancer | ✅ |
 | 3 | [Multi-class Classification (Deep MLP)](./pytorch_learning/MultiClassification/03_Multiclass_Classification.ipynb) | `CrossEntropyLoss`, dropout, batch norm, LR schedulers, early stopping | Fashion-MNIST | ✅ |
 | 4 | [CNN Image Classification](./pytorch_learning/CNNClassification/04_CNN_Image_Classification.ipynb) | `Conv2d`, `MaxPool2d`, data augmentation, `DataLoader`, GPU training | CIFAR-10 | ✅ |
@@ -14,8 +14,8 @@ A hands-on, progressive journey through PyTorch — from manual gradient descent
 | 6 | [Text Classification (RNN/LSTM)](./pytorch_learning/TextClassification/06_Text_Classification_LSTM.ipynb) | `Embedding`, `LSTM`, bidirectional, sequence padding, gradient clipping | IMDB Sentiment | ✅ |
 | 7 | [Transformer from Scratch](./pytorch_learning/Transformers/07_Transformer_from_Scratch.ipynb) | Self-attention, multi-head attention, positional encoding, masking | IMDB Sentiment | ✅ |
 | 8 | [Object Detection](./pytorch_learning/ObjectDetection/08_Object_Detection.ipynb) | Faster R-CNN, bounding boxes, IoU, NMS, confidence thresholds | COCO pretrained | ✅ |
-| 9 | Autoencoder & VAE | Encoder-decoder, latent space, KL divergence, generative models | MNIST/CelebA | ⬜ |
-| 10 | End-to-End Pipeline | PyTorch Lightning, TensorBoard, hyperparameter tuning, ONNX export | Any | ⬜ |
+| 9 | [Autoencoder & VAE](./pytorch_learning/AutoEncoders/09_Autoencoder_VAE.ipynb) | Encoder-decoder, latent space, KL divergence, generation, interpolation | MNIST | ✅ |
+| 10 | [End-to-End Pipeline](./pytorch_learning/Pipeline/10_PyTorch_Lightning_Pipeline.ipynb) | PyTorch Lightning, TensorBoard, checkpointing, early stopping, ONNX export | Fashion-MNIST | ✅ |
 
 ## Setup
 
@@ -63,4 +63,4 @@ pip install jupyter matplotlib numpy pandas scikit-learn
 
 ## Author
 
-**Prasanth Yarramasu**
+**Prasanth Yarramasu** 
